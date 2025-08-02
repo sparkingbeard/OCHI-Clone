@@ -5,6 +5,8 @@ import Marquee from './Components/Marquee'
 import About from './Components/About'
 import Eyes from './Components/Eyes'
 import Featured from './Components/Featured'
+import ThreeCards from './Components/ThreeCards'
+import Footer from './Components/Footer'
 function App() {
   return (
     <div className='w-full min-h-screen bg-zinc-900 text-white '>
@@ -14,6 +16,8 @@ function App() {
       <About/>
       <Eyes/>
       <Featured/>
+      <ThreeCards/>
+      <Footer/>
     </div>
 
   )
